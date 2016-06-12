@@ -4,4 +4,8 @@ module.exports = function(router) {
 		res.send('success');
 	});
 
+	router.get('/someother', function(req, res) {
+		res.send('someother');
+	})
+
 }
